@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Caye-Chapel_Belize_4-scaled.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: rgba(31, 37, 41, 0.589);
+    padding: 0 4%;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    cursor: pointer;
+}
+
+.home-main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.home-main h1{
+    font-size: 45px;
+    width: 45%;
+    text-align: center;
+}
+
+.buttons button:nth-child(1){
+    background-color: rgb(243, 243, 243);
+    color: black;
+    cursor: pointer;
+    padding: 10px 25px;
+    font-family: sans-serif;
+}
+
+.buttons button:nth-child(2){
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-color: white;
+    font-family: sans-serif;
+}
